@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 609bccd31eea7ca42af9febb4fcec8b9, type: 3}
+  m_Name: MoneyData
+  m_EditorClassIdentifier: Assembly-CSharp::MoneyData
+  packs:
+  - name: SushiTray
+    price: 0.99$
+    pointsGranted: 100
+    sushiAmount: 1
+  - name: Family Tray
+    price: 2.99$
+    pointsGranted: 250
+    sushiAmount: 2
+  - name: Party Tray
+    price: 4.99$
+    pointsGranted: 500
+    sushiAmount: 3
+  - name: Deluxe Tray
+    price: 9.99
+    pointsGranted: 750
+    sushiAmount: 4
+  - name: Mega Tray
+    price: 19.99
+    pointsGranted: 1500
+    sushiAmount: 5
+  - name: Ultimate Feast
+    price: 49.99$
+    pointsGranted: 4500
+    sushiAmount: 6

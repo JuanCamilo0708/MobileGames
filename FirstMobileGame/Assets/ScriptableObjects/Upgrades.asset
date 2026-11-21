@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639c2efbcfd1bf442bbd03f4435e9df1, type: 3}
+  m_Name: Upgrades
+  m_EditorClassIdentifier: Assembly-CSharp::Upgrades
+  upgrades:
+  - name: Onigiri
+    sprite: {fileID: 21300000, guid: 5e6c26f8823780649ba2d4cb5a3989a7, type: 3}
+    cost: 0
+    amount: 1
+    type: 0
+  - name: Nigiri
+    sprite: {fileID: 21300000, guid: 9bdf58640c5048043b84554b7babfaf3, type: 3}
+    cost: 400
+    amount: 2
+    type: 0
+  - name: Maki
+    sprite: {fileID: 21300000, guid: d974d7d995deee243880a51ea9589e56, type: 3}
+    cost: 1000
+    amount: 4
+    type: 0
+  - name: Uramaki
+    sprite: {fileID: 21300000, guid: 3b70475acceed6e489ff7c63758f85f5, type: 3}
+    cost: 5000
+    amount: 8
+    type: 0
+  - name: Wasabi
+    sprite: {fileID: 21300000, guid: bc87f1a36eb9f06459dca3bbbef7501b, type: 3}
+    cost: 10000
+    amount: 16
+    type: 0
+  - name: Roll1
+    sprite: {fileID: 21300000, guid: 232c86da633a14f449712648cba77634, type: 3}
+    cost: 100
+    amount: 1
+    type: 1
+  - name: Roll2
+    sprite: {fileID: 21300000, guid: 3b70475acceed6e489ff7c63758f85f5, type: 3}
+    cost: 250
+    amount: 3
+    type: 1
+  - name: Roll3
+    sprite: {fileID: 21300000, guid: 3b70475acceed6e489ff7c63758f85f5, type: 3}
+    cost: 600
+    amount: 5
+    type: 1
